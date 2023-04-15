@@ -10,11 +10,21 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.3
+  flutter_native_splash: ^2.2.19
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#199a8e"
+  color_dark: "#000000"
+  image: "assets/splashimage.png"
+  image_dark: "assets/splashimage.png"
+  android: true
+  ios: true
+  web: false
 
 flutter:
   uses-material-design: true
